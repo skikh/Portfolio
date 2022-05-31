@@ -1,0 +1,37 @@
+header{
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    max-width: 100%;
+}
+
+.header {
+    @extend %flexfordiv;
+    padding: 20px 0px 20px 0px;
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    
+    &__menu{
+        @extend %flexfordiv;
+      }
+
+    &__logo{
+        padding-left: 100px;
+    }
+
+    &__menu_item a{
+        color: #E4E4E4;
+        font-family: Poppins;
+    
+        &:hover{
+            transition: opacity .2s linear;
+            opacity: 0.5;
+        }
+    }
+}
+  
+.logo{
+    text-transform: uppercase;
+    font-family: Caveat;
+
+    a{
+        color: aliceblue;
+    }
+}

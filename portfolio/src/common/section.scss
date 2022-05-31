@@ -1,0 +1,12 @@
+.section{
+    @extend %flexfordiv;
+
+    &__about{
+        display: flex;
+        flex-direction: column;
+        &_greeting{
+            display: flex;
+            flex-direction: column; 
+        }
+    }
+}
