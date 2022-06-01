@@ -76,9 +76,40 @@ div {
   width: 100%;
 }
 
-.section, .header__menu, .header {
+/*-------------------FLEX-------------------*/
+.section__about_greeting, .section__about, .section, .header__menu, .header {
   display: flex;
   justify-content: space-between;
+}
+
+/*-------------------COLOR-------------------*/
+/*-------------------PADDING-------------------*/
+/*-------------------STYLE-------------------*/
+.section__about_greeting_big, .section__about_greeting_small {
+  font-family: "NEXT ART Bold";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 81.6px;
+  text-transform: uppercase;
+  color: #E4E4E4;
+}
+
+.section__about_text {
+  font-family: "Crimson Pro";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.38px;
+  color: #E4E4E4;
+}
+
+.section__about_button a {
+  font-family: "NEXT ART";
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000;
+  background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+  border-radius: 10px;
 }
 
 /*-----------------BLOCKS----------------*/
@@ -88,11 +119,7 @@ header {
 }
 
 .header {
-  padding: 20px 0px 20px 0px;
-  background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
-}
-.header__logo {
-  padding-left: 100px;
+  padding: 20px 0 20px 0;
 }
 .header__menu_item a {
   color: #E4E4E4;
@@ -117,13 +144,18 @@ header {
   margin: auto;
 }
 
+.section {
+  padding: 20px 0 20px 0;
+  background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+}
 .section__about {
-  display: flex;
   flex-direction: column;
 }
 .section__about_greeting {
-  display: flex;
   flex-direction: column;
+}
+.section__about_greeting_big {
+  font-size: 100px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

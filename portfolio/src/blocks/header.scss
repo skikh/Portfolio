@@ -1,20 +1,15 @@
 header{
-    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    background: $colorBackgroundDark;
     max-width: 100%;
 }
 
 .header {
     @extend %flexfordiv;
-    padding: 20px 0px 20px 0px;
-    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    padding: $paddingForSections;
     
     &__menu{
         @extend %flexfordiv;
       }
-
-    &__logo{
-        padding-left: 100px;
-    }
 
     &__menu_item a{
         color: #E4E4E4;

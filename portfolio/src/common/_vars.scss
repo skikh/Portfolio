@@ -1,4 +1,43 @@
+/*-------------------FLEX-------------------*/
+
 %flexfordiv{
     display: flex;
     justify-content: space-between;
+}
+
+/*-------------------COLOR-------------------*/
+$colorBackgroundDark: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+
+
+/*-------------------PADDING-------------------*/
+$paddingForSections: 20px 0 20px 0;
+
+/*-------------------STYLE-------------------*/
+%style1
+{
+    font-family: 'NEXT ART Bold';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 81.6px;
+    text-transform: uppercase;
+    color: #E4E4E4;
+}
+
+%style2
+{
+    font-family: 'Crimson Pro';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.38px;
+    color: #E4E4E4;
+}
+
+%styleButton{
+    font-family: 'NEXT ART';
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    border-radius: 10px;
 }

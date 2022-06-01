@@ -1,12 +1,30 @@
 .section{
     @extend %flexfordiv;
-
-    &__about{
-        display: flex;
+    padding: $paddingForSections;
+    background: $colorBackgroundDark;
+    &__about
+    {
+        @extend %flexfordiv;
         flex-direction: column;
-        &_greeting{
-            display: flex;
+        &_greeting
+        {
+            @extend %flexfordiv;
             flex-direction: column; 
+            &_small
+            {
+                @extend %style1;
+            }
+            &_big
+            {
+                @extend %style1;
+                font-size: 100px;
+            }            
+        }
+        &_text{
+            @extend %style2;
+        }
+        &_button a{
+            @extend %styleButton;
         }
     }
-}
+}    
