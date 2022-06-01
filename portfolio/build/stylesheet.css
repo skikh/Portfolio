@@ -1,9 +1,4 @@
 /*-----------------COMMON----------------*/
-.section, .header__menu, .header {
-  display: flex;
-  justify-content: space-between;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -81,6 +76,11 @@ div {
   width: 100%;
 }
 
+.section, .header__menu, .header {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*-----------------BLOCKS----------------*/
 header {
   background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
@@ -126,4 +126,4 @@ header {
   flex-direction: column;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stylesheet.css.map */
