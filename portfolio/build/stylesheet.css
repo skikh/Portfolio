@@ -91,7 +91,7 @@ div {
 }
 
 /*-------------------FLEX-------------------*/
-.section__skills_skill, .section__skills, .section_light, .section__about_greeting, .section, .header__menu, .header {
+.section__skills_skill, .section__about_greeting, .section_light, .section_dark, .header__menu, .header {
   display: flex;
   justify-content: space-between;
 }
@@ -174,10 +174,16 @@ header {
   justify-content: space-between;
 }
 
-.section {
+.section_dark {
   padding: 20px 0 20px 0;
   background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
 }
+
+.section_light {
+  padding: 20px 0 20px 0;
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
 .section__about {
   display: flex;
   justify-content: center;
@@ -194,20 +200,19 @@ header {
   display: flex;
   justify-content: center;
 }
-.section img {
+.section__photo img {
   width: 500px;
 }
 
-.section_light {
-  padding: 20px 0 20px 0;
-  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
-}
-
 .section__skills {
+  display: flex;
+  justify-content: space-around;
   padding: 0 30px 0 0;
-  width: 20%;
+  flex-wrap: wrap;
 }
 .section__skills_skill {
+  width: 20%;
+  margin: 20px 50px 20px 50px;
   flex-direction: column;
   padding: 0 0 30px 0;
   background: #2A2A2A;
@@ -215,13 +220,13 @@ header {
   border-radius: 29px;
 }
 .section__skills_skill img {
+  padding: 30px 0 0 0;
   width: 150px;
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
 .section__skills_skill span {
-  display: flex;
-  justify-content: center;
+  margin: auto;
+  padding: 30px 0 0 0;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

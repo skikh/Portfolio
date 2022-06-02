@@ -1,8 +1,4 @@
-.section{
-    @extend %flexfordiv;
-    padding: $paddingForSections;
-    background: $colorBackgroundDark;
-    &__about
+.section__about
     {
         display: flex;
         justify-content: center;
@@ -27,12 +23,12 @@
             }
         }
     }
-    &__photo {
+.section__photo {
         display: flex;
         justify-content: center;
-    }
+    
     
     & img{
         width: 500px;
     }
-}    
+}       

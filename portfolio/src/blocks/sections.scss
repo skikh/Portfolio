@@ -1,0 +1,11 @@
+.section_dark{
+    @extend %flexfordiv;
+    padding: $paddingForSections;
+    background: $colorBackgroundDark;
+}
+
+.section_light{
+    @extend %flexfordiv;
+    padding: $paddingForSections;
+    background: $colorBackgroundLight;
+}
