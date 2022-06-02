@@ -81,8 +81,17 @@ div {
   opacity: 0.5;
 }
 
+.section__about_button button:hover {
+  box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0.5);
+}
+
+.section__about_button button:active {
+  border-color: rgb(177, 159, 0);
+  box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 0 60px rgba(255, 255, 0, 0.45);
+}
+
 /*-------------------FLEX-------------------*/
-.section__about_greeting, .section, .header__menu, .header {
+.section__skills_skill, .section__skills, .section_light, .section__about_greeting, .section, .header__menu, .header {
   display: flex;
   justify-content: space-between;
 }
@@ -149,10 +158,6 @@ header {
 .header {
   padding: 20px 0 20px 0;
 }
-.header__menu_item a {
-  color: #E4E4E4;
-  font-family: Poppins;
-}
 .logo {
   text-transform: uppercase;
   font-family: Caveat;
@@ -191,6 +196,32 @@ header {
 }
 .section img {
   width: 500px;
+}
+
+.section_light {
+  padding: 20px 0 20px 0;
+  background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+.section__skills {
+  padding: 0 30px 0 0;
+  width: 20%;
+}
+.section__skills_skill {
+  flex-direction: column;
+  padding: 0 0 30px 0;
+  background: #2A2A2A;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+  border-radius: 29px;
+}
+.section__skills_skill img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+.section__skills_skill span {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

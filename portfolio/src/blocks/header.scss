@@ -11,10 +11,7 @@ header{
         @extend %flexfordiv;
       }
 
-    &__menu_item a{
-        color: #E4E4E4;
-        font-family: Poppins;
-    
+    &__menu_item a{    
         &:hover{
            @extend %animationhover
         }

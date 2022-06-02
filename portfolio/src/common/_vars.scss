@@ -7,6 +7,7 @@
 
 /*-------------------COLOR-------------------*/
 $colorBackgroundDark: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+$colorBackgroundLight: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
 $colorButton: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
 $colorText: #E4E4E4;
 
@@ -16,13 +17,4 @@ $colorText: #E4E4E4;
 $paddingForSections: 20px 0 20px 0;
 
 /*-------------------STYLE-------------------*/
-%style1
-{
-    font-family: 'NEXT ART Bold';
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 81.6px;
-    text-transform: uppercase;
-    color: #E4E4E4;
-}
 
