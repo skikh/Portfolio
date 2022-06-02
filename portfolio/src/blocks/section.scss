@@ -4,27 +4,28 @@
     background: $colorBackgroundDark;
     &__about
     {
-        @extend %flexfordiv;
+        display: flex;
+        justify-content: center;
         flex-direction: column;
         &_greeting
         {
             @extend %flexfordiv;
-            flex-direction: column; 
-            &_small
-            {
-                @extend %style1;
-            }
-            &_big
-            {
-                @extend %style1;
-                font-size: 100px;
-            }            
+            flex-direction: column;
+            padding: 0 0 30px 0;           
         }
-        &_text{
-            @extend %style2;
+
+        &_text 
+        {
+            padding: 0 0 30px 0;   
         }
-        &_button a{
-            @extend %styleButton;
-        }
+        
+    }
+    &__photo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    & img{
+        width: 500px;
     }
 }    

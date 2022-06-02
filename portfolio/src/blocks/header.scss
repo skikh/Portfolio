@@ -16,8 +16,7 @@ header{
         font-family: Poppins;
     
         &:hover{
-            transition: opacity .2s linear;
-            opacity: 0.5;
+           @extend %animationhover
         }
     }
 }

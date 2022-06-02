@@ -4,3 +4,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Net Adora';
+    src: url('../fonts/Net\ Adora/FontsFree-Net-adora1.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

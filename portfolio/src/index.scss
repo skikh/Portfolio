@@ -1,8 +1,12 @@
 /*-----------------COMMON----------------*/
 @import "../src/common/null.scss";
+@import "../src/common/animation.scss";
 @import "../src/common/_vars.scss";
 
 /*-----------------BLOCKS----------------*/
+@import "../src/blocks/buttons.scss";
+@import "../src/blocks/text.scss";
+@import "../src/blocks/headlines.scss";
 @import "../src/blocks/header.scss";
 @import "../src/blocks/container.scss";
 @import "../src/blocks/section.scss";
